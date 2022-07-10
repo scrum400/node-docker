@@ -19,5 +19,5 @@ services:
     command: npm run dev
   mongo:
     environment:
-      MONGO_INITDB_ROOT_USERNAME: kdia1
-      MONGO_INITDB_ROOT_PASSWORD: example
+      - MONGO_INITDB_ROOT_USERNAME=kdia1
+      - MONGO_INITDB_ROOT_PASSWORD=example
